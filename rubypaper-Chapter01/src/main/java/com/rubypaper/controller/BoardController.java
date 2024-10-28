@@ -45,9 +45,9 @@ public class BoardController {
 			
 			BoardVO board = new BoardVO();
 			board.setSeq(i);
-			board.setTitle("제목 + i");
+			board.setTitle("제목" + i);
 			board.setWriter("테스터");
-			board.setContent("i + 번 내용입니다...");
+			board.setContent(i + "번 내용입니다...");
 			board.setCreateDate(new Date());
 			
 			
