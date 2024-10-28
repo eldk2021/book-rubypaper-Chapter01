@@ -1,0 +1,9 @@
+${AnsiColor.RED}  \,`/ / 
+${AnsiColor.BRIGHT_YELLOW} _)..  `_
+${AnsiColor.BRIGHT_GREEN} ( __  -\
+${AnsiColor.GREEN}    '`.                  
+${AnsiColor.BRIGHT_CYAN}   ( \>_-_,   
+${AnsiColor.BLUE}   _||_ ~-/
+
+${AnsiColor.BRIGHT_GREEN}:: Spring Boot ${spring-boot.formatted-version} ::   
+${AnsiColor.BRIGHT_GREEN}:: Spring Boot ${spring-boot.version} ::   
