@@ -5,7 +5,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.env.Environment;
 
-@SpringBootTest
+import com.rubypaper.controller.BoardController;
+
+@SpringBootTest(classes = BoardController.class,
+				properties= {"author.name=Gurum",
+							"author.age=45",
+							"author.nation=Korea"})
 public class PropertiresTest {
 	
 	@Autowired
